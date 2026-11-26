@@ -14,6 +14,7 @@ This portfolio showcases evidence-based investigations, technical analysis, and 
 |---|---|---|
 | [The Greenholt Phish](phishing-analysis/greenholt-phish/README.md) | Email header analysis, SPF analysis, file signature verification, hashing, threat intelligence | Completed |
 | [Snapped Phish-ing Line](phishing-analysis/snapped-phishing-line/README.md) | HTML analysis, phishing infrastructure investigation, credential exposure assessment, static PHP analysis | Completed |
+| [Data Exfiltration Detection](data-exfiltration-detection/README.md) | Splunk SPL, Wireshark packet analysis, DNS tunneling detection, FTP/HTTP/ICMP payload analysis, cross-source evidence correlation | Completed |
 
 ## Certifications and Education
 
@@ -29,11 +30,13 @@ This portfolio showcases evidence-based investigations, technical analysis, and 
 
 ## Technical Skills
 
-- **Security operations:** SIEM fundamentals, security alert triage, incident investigation, incident response methodology
+- **Security operations:** Splunk Enterprise, SPL searches and filtering, security alert triage, incident investigation, incident response methodology
 - **Phishing analysis:** Email headers, sender authentication, social engineering, HTML attachment analysis
 - **Static artifact analysis:** File type identification, MD5 and SHA-256 hashing, PHP source code analysis
 - **Threat intelligence:** VirusTotal, AbuseIPDB, ThreatBook, IOC identification and reputation analysis
-- **Systems and networking:** Windows and Linux fundamentals, network traffic analysis
+- **Network traffic analysis:** Wireshark, PCAP analysis, display filters, TCP stream inspection, DNS, FTP, HTTP, and ICMP analysis
+- **Data exfiltration detection:** Anomalous DNS query identification, outbound traffic analysis, suspicious payload inspection, SIEM and packet evidence correlation
+- **Systems and networking:** Windows and Linux fundamentals, TCP/IP networking
 - **Frameworks:** MITRE ATT&CK
 
 ## Investigation Methodology
@@ -56,6 +59,6 @@ Each investigation documents:
 
 ## Disclaimer
 
-All investigations were conducted in authorized cybersecurity training environments for educational and professional development purposes. Reports distinguish confirmed findings from potential impacts and recommended actions. Sensitive credentials are redacted, and malicious indicators are defanged where applicable.
+All investigations were conducted in authorized cybersecurity training environments for educational and professional development purposes. Reports distinguish confirmed findings from potential impacts and recommended actions. Sensitive credentials and challenge flags should be redacted before public publication, and malicious indicators are defanged where applicable.
 
 This portfolio demonstrates my analytical process and technical skills. It is not intended to provide challenge answer keys or flags.
